@@ -27,6 +27,8 @@ class SignUpViewController: UIViewController {
         self.present(
           Service.createAlertController(title: "Error",
                                         message: error!.localizedDescription),
+//          Service.createAlertController(title: "Error",
+//                                        message: "ERROR: Wrong passwword"),
           animated: true,
           completion: nil)
         return
