@@ -7,74 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3214EABD276E25A200ACDC52 /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3214EABC276E25A200ACDC52 /* CheckButton.swift */; };
-		32273F9F276E2DBF002C9FB2 /* MedsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32273F9E276E2DBF002C9FB2 /* MedsVC.swift */; };
-		32453D94276E0344007CD609 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32453D93276E0344007CD609 /* UIView+Ext.swift */; };
-		3261C678276C8F0400C6A70C /* MealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C677276C8F0400C6A70C /* MealVC.swift */; };
-		3261C67A276C8F5600C6A70C /* MealsReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C679276C8F5600C6A70C /* MealsReminderVC.swift */; };
-		3261C67C276C8F7A00C6A70C /* ShowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67B276C8F7A00C6A70C /* ShowerVC.swift */; };
-		3261C67E276C8F9400C6A70C /* ShowerReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67D276C8F9400C6A70C /* ShowerReminderVC.swift */; };
-		3261C680276C8FA300C6A70C /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67F276C8FA300C6A70C /* CameraVC.swift */; };
-		3261C682276C8FB700C6A70C /* CameraReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C681276C8FB700C6A70C /* CameraReminderVC.swift */; };
-		3261C686276CA1AA00C6A70C /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C685276CA1A900C6A70C /* NotificationVC.swift */; };
+		3261C672276C8E5900C6A70C /* MedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C671276C8E5900C6A70C /* MedsViewController.swift */; };
+		3261C676276C8EDD00C6A70C /* MedsReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C675276C8EDD00C6A70C /* MedsReminderViewController.swift */; };
+		3261C678276C8F0400C6A70C /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C677276C8F0400C6A70C /* MealViewController.swift */; };
+		3261C67A276C8F5600C6A70C /* MealsReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C679276C8F5600C6A70C /* MealsReminderViewController.swift */; };
+		3261C67C276C8F7A00C6A70C /* ShowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67B276C8F7A00C6A70C /* ShowerViewController.swift */; };
+		3261C67E276C8F9400C6A70C /* ShowerReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67D276C8F9400C6A70C /* ShowerReminderViewController.swift */; };
+		3261C680276C8FA300C6A70C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C67F276C8FA300C6A70C /* CameraViewController.swift */; };
+		3261C682276C8FB700C6A70C /* CameraReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C681276C8FB700C6A70C /* CameraReminderViewController.swift */; };
+		3261C686276CA1AA00C6A70C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261C685276CA1A900C6A70C /* NotificationViewController.swift */; };
 		3263CB02276C86DB00C03640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB01276C86DB00C03640 /* AppDelegate.swift */; };
 		3263CB04276C86DC00C03640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB03276C86DC00C03640 /* SceneDelegate.swift */; };
+		3263CB06276C86DC00C03640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB05276C86DC00C03640 /* ViewController.swift */; };
 		3263CB09276C86DC00C03640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263CB07276C86DC00C03640 /* Main.storyboard */; };
 		3263CB0B276C86E100C03640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3263CB0A276C86E100C03640 /* Assets.xcassets */; };
 		3263CB0E276C86E100C03640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263CB0C276C86E100C03640 /* LaunchScreen.storyboard */; };
 		3263CB17276C874800C03640 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB16276C874800C03640 /* Service.swift */; };
-		3263CB25276C875800C03640 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1A276C875800C03640 /* PreviewVC.swift */; };
-		3263CB26276C875800C03640 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1C276C875800C03640 /* SignUpVC.swift */; };
-		3263CB27276C875800C03640 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1D276C875800C03640 /* ForgetPasswordVC.swift */; };
-		3263CB29276C875800C03640 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1F276C875800C03640 /* SignInVC.swift */; };
-		3263CB2A276C875800C03640 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB20276C875800C03640 /* HomeVC.swift */; };
-		3263CB2B276C875800C03640 /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB21276C875800C03640 /* TutorialVC.swift */; };
-		3263CB2C276C875800C03640 /* ExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB22276C875800C03640 /* ExercisesVC.swift */; };
-		3263CB2D276C875800C03640 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB23276C875800C03640 /* ProfileVC.swift */; };
+		3263CB25276C875800C03640 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1A276C875800C03640 /* PreviewViewController.swift */; };
+		3263CB26276C875800C03640 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1C276C875800C03640 /* SignUpViewController.swift */; };
+		3263CB27276C875800C03640 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1D276C875800C03640 /* ForgetPasswordViewController.swift */; };
+		3263CB29276C875800C03640 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB1F276C875800C03640 /* SignInViewController.swift */; };
+		3263CB2A276C875800C03640 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB20276C875800C03640 /* HomeViewController.swift */; };
+		3263CB2B276C875800C03640 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB21276C875800C03640 /* TutorialViewController.swift */; };
+		3263CB2C276C875800C03640 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB22276C875800C03640 /* ExercisesViewController.swift */; };
+		3263CB2D276C875800C03640 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263CB23276C875800C03640 /* ProfileViewController.swift */; };
 		3263CB2F276C88CA00C03640 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3263CB2E276C88CA00C03640 /* GoogleService-Info.plist */; };
-		3279EFE9276CCFBD00A2AA82 /* ChangeEmailAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressVC.swift */; };
-		32A55E812778920100B586A6 /* cameraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A55E802778920100B586A6 /* cameraTableViewCell.swift */; };
-		32B602D82777587C0071C4D8 /* UIPickers+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B602D72777587C0071C4D8 /* UIPickers+Ext.swift */; };
-		32BEA3E627707A0300E0546C /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEA3E527707A0300E0546C /* Reminder.swift */; };
-		32D1274827749A9E0013ED50 /* MedsReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1274727749A9E0013ED50 /* MedsReminderVC.swift */; };
-		32D86EB22770D236003666C2 /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D86EB12770D236003666C2 /* DropDownButton.swift */; };
+		3279EFE9276CCFBD00A2AA82 /* ChangeEmailAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressViewController.swift */; };
 		E20767D4193CF051EC573345 /* Pods_CareCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C168A37C0DC13E16F12B2E16 /* Pods_CareCheck.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3214EABC276E25A200ACDC52 /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
-		32273F9E276E2DBF002C9FB2 /* MedsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsVC.swift; sourceTree = "<group>"; };
-		32453D93276E0344007CD609 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
-		3261C677276C8F0400C6A70C /* MealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealVC.swift; sourceTree = "<group>"; };
-		3261C679276C8F5600C6A70C /* MealsReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsReminderVC.swift; sourceTree = "<group>"; };
-		3261C67B276C8F7A00C6A70C /* ShowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerVC.swift; sourceTree = "<group>"; };
-		3261C67D276C8F9400C6A70C /* ShowerReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerReminderVC.swift; sourceTree = "<group>"; };
-		3261C67F276C8FA300C6A70C /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
-		3261C681276C8FB700C6A70C /* CameraReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraReminderVC.swift; sourceTree = "<group>"; };
-		3261C685276CA1A900C6A70C /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		3261C671276C8E5900C6A70C /* MedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsViewController.swift; sourceTree = "<group>"; };
+		3261C675276C8EDD00C6A70C /* MedsReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsReminderViewController.swift; sourceTree = "<group>"; };
+		3261C677276C8F0400C6A70C /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		3261C679276C8F5600C6A70C /* MealsReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsReminderViewController.swift; sourceTree = "<group>"; };
+		3261C67B276C8F7A00C6A70C /* ShowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerViewController.swift; sourceTree = "<group>"; };
+		3261C67D276C8F9400C6A70C /* ShowerReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerReminderViewController.swift; sourceTree = "<group>"; };
+		3261C67F276C8FA300C6A70C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3261C681276C8FB700C6A70C /* CameraReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraReminderViewController.swift; sourceTree = "<group>"; };
+		3261C685276CA1A900C6A70C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		3263CAFE276C86DB00C03640 /* CareCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3263CB01276C86DB00C03640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3263CB03276C86DC00C03640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3263CB05276C86DC00C03640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3263CB08276C86DC00C03640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3263CB0A276C86E100C03640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3263CB0D276C86E100C03640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3263CB0F276C86E100C03640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3263CB16276C874800C03640 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		3263CB1A276C875800C03640 /* PreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
-		3263CB1C276C875800C03640 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		3263CB1D276C875800C03640 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
-		3263CB1F276C875800C03640 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
-		3263CB20276C875800C03640 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		3263CB21276C875800C03640 /* TutorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
-		3263CB22276C875800C03640 /* ExercisesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesVC.swift; sourceTree = "<group>"; };
-		3263CB23276C875800C03640 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		3263CB1A276C875800C03640 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		3263CB1C276C875800C03640 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3263CB1D276C875800C03640 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		3263CB1F276C875800C03640 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3263CB20276C875800C03640 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3263CB21276C875800C03640 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		3263CB22276C875800C03640 /* ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		3263CB23276C875800C03640 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3263CB2E276C88CA00C03640 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailAddressVC.swift; sourceTree = "<group>"; };
-		32A55E802778920100B586A6 /* cameraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraTableViewCell.swift; sourceTree = "<group>"; };
-		32B602D72777587C0071C4D8 /* UIPickers+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPickers+Ext.swift"; sourceTree = "<group>"; };
-		32BEA3E527707A0300E0546C /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		32D1274727749A9E0013ED50 /* MedsReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsReminderVC.swift; sourceTree = "<group>"; };
-		32D86EB12770D236003666C2 /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
+		3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailAddressViewController.swift; sourceTree = "<group>"; };
 		7E462F55652099F6FF531B3D /* Pods-CareCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareCheck.release.xcconfig"; path = "Target Support Files/Pods-CareCheck/Pods-CareCheck.release.xcconfig"; sourceTree = "<group>"; };
 		A7AC04AE8067A6FC5B8D2FD2 /* Pods-CareCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareCheck.debug.xcconfig"; path = "Target Support Files/Pods-CareCheck/Pods-CareCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		C168A37C0DC13E16F12B2E16 /* Pods_CareCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,60 +90,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32453D92276E02FF007CD609 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				32453D93276E0344007CD609 /* UIView+Ext.swift */,
-				32B602D72777587C0071C4D8 /* UIPickers+Ext.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		325991AC2770FF2100E17A7A /* MedsReminder */ = {
-			isa = PBXGroup;
-			children = (
-				32273F9E276E2DBF002C9FB2 /* MedsVC.swift */,
-				32D1274727749A9E0013ED50 /* MedsReminderVC.swift */,
-			);
-			path = MedsReminder;
-			sourceTree = "<group>";
-		};
-		325991AD2770FF4100E17A7A /* MealReminder */ = {
-			isa = PBXGroup;
-			children = (
-				3261C677276C8F0400C6A70C /* MealVC.swift */,
-				3261C679276C8F5600C6A70C /* MealsReminderVC.swift */,
-			);
-			path = MealReminder;
-			sourceTree = "<group>";
-		};
-		325991AE2770FF7B00E17A7A /* ShowerReminder */ = {
-			isa = PBXGroup;
-			children = (
-				3261C67B276C8F7A00C6A70C /* ShowerVC.swift */,
-				3261C67D276C8F9400C6A70C /* ShowerReminderVC.swift */,
-			);
-			path = ShowerReminder;
-			sourceTree = "<group>";
-		};
-		325991AF2770FFA800E17A7A /* CameraReminder */ = {
-			isa = PBXGroup;
-			children = (
-				3261C67F276C8FA300C6A70C /* CameraVC.swift */,
-				3261C681276C8FB700C6A70C /* CameraReminderVC.swift */,
-				32A55E802778920100B586A6 /* cameraTableViewCell.swift */,
-			);
-			path = CameraReminder;
-			sourceTree = "<group>";
-		};
 		3261C673276C8E6A00C6A70C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3263CB20276C875800C03640 /* HomeVC.swift */,
-				325991AC2770FF2100E17A7A /* MedsReminder */,
-				325991AD2770FF4100E17A7A /* MealReminder */,
-				325991AE2770FF7B00E17A7A /* ShowerReminder */,
-				325991AF2770FFA800E17A7A /* CameraReminder */,
+				3261C671276C8E5900C6A70C /* MedsViewController.swift */,
+				3261C675276C8EDD00C6A70C /* MedsReminderViewController.swift */,
+				3261C677276C8F0400C6A70C /* MealViewController.swift */,
+				3261C679276C8F5600C6A70C /* MealsReminderViewController.swift */,
+				3261C67B276C8F7A00C6A70C /* ShowerViewController.swift */,
+				3261C67D276C8F9400C6A70C /* ShowerReminderViewController.swift */,
+				3261C67F276C8FA300C6A70C /* CameraViewController.swift */,
+				3261C681276C8FB700C6A70C /* CameraReminderViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,8 +108,8 @@
 		3261C683276C901900C6A70C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				3261C685276CA1A900C6A70C /* NotificationVC.swift */,
-				3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressVC.swift */,
+				3261C685276CA1A900C6A70C /* NotificationViewController.swift */,
+				3279EFE8276CCFBD00A2AA82 /* ChangeEmailAddressViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -170,8 +117,6 @@
 		3261C684276C905700C6A70C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3263CB07276C86DC00C03640 /* Main.storyboard */,
-				3263CB0C276C86E100C03640 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,11 +145,12 @@
 				3263CB18276C875800C03640 /* Controllers */,
 				3263CB15276C874800C03640 /* Model */,
 				3261C684276C905700C6A70C /* View */,
-				32D86EB02770D1C5003666C2 /* Utility */,
-				32453D92276E02FF007CD609 /* Extension */,
 				3263CB01276C86DB00C03640 /* AppDelegate.swift */,
 				3263CB03276C86DC00C03640 /* SceneDelegate.swift */,
+				3263CB05276C86DC00C03640 /* ViewController.swift */,
+				3263CB07276C86DC00C03640 /* Main.storyboard */,
 				3263CB0A276C86E100C03640 /* Assets.xcassets */,
+				3263CB0C276C86E100C03640 /* LaunchScreen.storyboard */,
 				3263CB0F276C86E100C03640 /* Info.plist */,
 				3263CB2E276C88CA00C03640 /* GoogleService-Info.plist */,
 			);
@@ -214,6 +160,7 @@
 		3263CB15276C874800C03640 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3263CB16276C874800C03640 /* Service.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,12 +168,13 @@
 		3263CB18276C875800C03640 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3263CB1A276C875800C03640 /* PreviewVC.swift */,
+				3263CB1A276C875800C03640 /* PreviewViewController.swift */,
 				3263CB1B276C875800C03640 /* Auth */,
+				3263CB20276C875800C03640 /* HomeViewController.swift */,
 				3261C673276C8E6A00C6A70C /* Home */,
-				3263CB21276C875800C03640 /* TutorialVC.swift */,
-				3263CB22276C875800C03640 /* ExercisesVC.swift */,
-				3263CB23276C875800C03640 /* ProfileVC.swift */,
+				3263CB21276C875800C03640 /* TutorialViewController.swift */,
+				3263CB22276C875800C03640 /* ExercisesViewController.swift */,
+				3263CB23276C875800C03640 /* ProfileViewController.swift */,
 				3261C683276C901900C6A70C /* Profile */,
 			);
 			path = Controllers;
@@ -235,22 +183,11 @@
 		3263CB1B276C875800C03640 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				3263CB1C276C875800C03640 /* SignUpVC.swift */,
-				3263CB1D276C875800C03640 /* ForgetPasswordVC.swift */,
-				3263CB1F276C875800C03640 /* SignInVC.swift */,
+				3263CB1C276C875800C03640 /* SignUpViewController.swift */,
+				3263CB1D276C875800C03640 /* ForgetPasswordViewController.swift */,
+				3263CB1F276C875800C03640 /* SignInViewController.swift */,
 			);
 			path = Auth;
-			sourceTree = "<group>";
-		};
-		32D86EB02770D1C5003666C2 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				3263CB16276C874800C03640 /* Service.swift */,
-				3214EABC276E25A200ACDC52 /* CheckButton.swift */,
-				32BEA3E527707A0300E0546C /* Reminder.swift */,
-				32D86EB12770D236003666C2 /* DropDownButton.swift */,
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 		BC206BE8DCDD82FDA81C4664 /* Pods */ = {
@@ -378,33 +315,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3263CB26276C875800C03640 /* SignUpVC.swift in Sources */,
-				3261C680276C8FA300C6A70C /* CameraVC.swift in Sources */,
-				3279EFE9276CCFBD00A2AA82 /* ChangeEmailAddressVC.swift in Sources */,
-				3261C678276C8F0400C6A70C /* MealVC.swift in Sources */,
-				3261C67E276C8F9400C6A70C /* ShowerReminderVC.swift in Sources */,
-				3263CB2D276C875800C03640 /* ProfileVC.swift in Sources */,
+				3263CB26276C875800C03640 /* SignUpViewController.swift in Sources */,
+				3261C680276C8FA300C6A70C /* CameraViewController.swift in Sources */,
+				3279EFE9276CCFBD00A2AA82 /* ChangeEmailAddressViewController.swift in Sources */,
+				3261C678276C8F0400C6A70C /* MealViewController.swift in Sources */,
+				3261C67E276C8F9400C6A70C /* ShowerReminderViewController.swift in Sources */,
+				3263CB06276C86DC00C03640 /* ViewController.swift in Sources */,
+				3263CB2D276C875800C03640 /* ProfileViewController.swift in Sources */,
 				3263CB17276C874800C03640 /* Service.swift in Sources */,
-				3261C67C276C8F7A00C6A70C /* ShowerVC.swift in Sources */,
-				32BEA3E627707A0300E0546C /* Reminder.swift in Sources */,
-				32D86EB22770D236003666C2 /* DropDownButton.swift in Sources */,
+				3261C67C276C8F7A00C6A70C /* ShowerViewController.swift in Sources */,
+				3261C676276C8EDD00C6A70C /* MedsReminderViewController.swift in Sources */,
 				3263CB02276C86DB00C03640 /* AppDelegate.swift in Sources */,
 				3263CB04276C86DC00C03640 /* SceneDelegate.swift in Sources */,
-				32A55E812778920100B586A6 /* cameraTableViewCell.swift in Sources */,
-				32D1274827749A9E0013ED50 /* MedsReminderVC.swift in Sources */,
-				32453D94276E0344007CD609 /* UIView+Ext.swift in Sources */,
-				3261C686276CA1AA00C6A70C /* NotificationVC.swift in Sources */,
-				3263CB2A276C875800C03640 /* HomeVC.swift in Sources */,
-				3261C67A276C8F5600C6A70C /* MealsReminderVC.swift in Sources */,
-				3263CB27276C875800C03640 /* ForgetPasswordVC.swift in Sources */,
-				3263CB29276C875800C03640 /* SignInVC.swift in Sources */,
-				32273F9F276E2DBF002C9FB2 /* MedsVC.swift in Sources */,
-				3263CB2B276C875800C03640 /* TutorialVC.swift in Sources */,
-				32B602D82777587C0071C4D8 /* UIPickers+Ext.swift in Sources */,
-				3263CB25276C875800C03640 /* PreviewVC.swift in Sources */,
-				3263CB2C276C875800C03640 /* ExercisesVC.swift in Sources */,
-				3214EABD276E25A200ACDC52 /* CheckButton.swift in Sources */,
-				3261C682276C8FB700C6A70C /* CameraReminderVC.swift in Sources */,
+				3261C686276CA1AA00C6A70C /* NotificationViewController.swift in Sources */,
+				3261C672276C8E5900C6A70C /* MedsViewController.swift in Sources */,
+				3263CB2A276C875800C03640 /* HomeViewController.swift in Sources */,
+				3261C67A276C8F5600C6A70C /* MealsReminderViewController.swift in Sources */,
+				3263CB27276C875800C03640 /* ForgetPasswordViewController.swift in Sources */,
+				3263CB29276C875800C03640 /* SignInViewController.swift in Sources */,
+				3263CB2B276C875800C03640 /* TutorialViewController.swift in Sources */,
+				3263CB25276C875800C03640 /* PreviewViewController.swift in Sources */,
+				3263CB2C276C875800C03640 /* ExercisesViewController.swift in Sources */,
+				3261C682276C8FB700C6A70C /* CameraReminderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,11 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z5L25FKK3Q;
-				ENABLE_APP_SANDBOX = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CareCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -564,7 +494,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,7 +501,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajareid.CareCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -585,11 +513,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z5L25FKK3Q;
-				ENABLE_APP_SANDBOX = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CareCheck/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -597,7 +523,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,7 +530,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajareid.CareCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

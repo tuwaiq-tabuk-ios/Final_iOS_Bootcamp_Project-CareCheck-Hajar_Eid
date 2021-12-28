@@ -3,7 +3,6 @@
 import UIKit
 
 class Service {
-  
   static func createAlertController(title: String,
                                     message: String)-> UIAlertController{
     
@@ -16,7 +15,6 @@ class Service {
       alert.dismiss(animated: true,
                     completion: nil)
     }
-    
     alert.addAction(okAction)
     
     return alert
